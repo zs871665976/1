@@ -158,7 +158,7 @@ def lucky():
         res = conn.getresponse()
         data = res.read()
         data = json.loads(data)
-        data = "综合指数："+str(data["newslist"][0]["content"])+"爱情指数："+str(data["newslist"][1]["content"])+"健康指数："+str(data["newslist"][4]["content"])+"\n今日概述："+str(data["newslist"][8]["content"])
+        data = "双鱼座爱情指数："+str(data["newslist"][1]["content"])+"\n工作指数："+str(data["newslist"][2]["content"])+"\n今日概述："+str(data["newslist"][8]["content"])
         return data
     else:
         return ""
