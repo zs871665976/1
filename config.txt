@@ -10,9 +10,9 @@
 "user": ["oif8T6VR0SYByxeJXoGtmT1FebCs","oif8T6fVpA0Jfa-MxosKx1GTRX2c"],
 # 信息配置
 # 所在省份
-"province": "山东",
+"province": "河北",
 # 所在城市
-"city": "德州",
+"city": "沧州",
 # 生日1，如果生日为农历，在最前面加上r即可，如r1999-01-01
 "birthday1": "r2000-01-22",
 # 生日2
